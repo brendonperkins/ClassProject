@@ -28,8 +28,8 @@ and modified as follows:
    should be equivalent to direction_opp = 1. No discrepancies were found, but the 
    corresponding rows for any discrepancies would have been removed if they had existed. 
 		
-A heat map of the numeric variables shows there is no significant correlation between the
-variables, indicating they serve as independent measures of driver’s likelihood of
+Heat maps of the numeric variables show there are no significant correlations between the
+variables, indicating they serve as independent measures of drivers' likelihood of
 accepting coupons.
 
 KEY FINDINGS
@@ -40,8 +40,8 @@ KEY FINDINGS
      b.	Drivers were more likely to accept coupons if someone else was in the car with friends
         and partners having nearly equal impacts and exceeding acceptance rates with kids.
      c.	Younger drivers were more likely to accept coupons than older drivers. This is 
-        particularly true for the ‘Never’ category, where anyone beyond their early twenties
- 	is highly unlikely to accept.
+        particularly true for the ‘Never’ category, where all the age categories above the early
+   	twenties had much lower acceptance rates.
      d.	Drivers in the $62.5k – $87.5k were the least likely to accept coupons.
      e.	There was no significant difference in acceptance rates by gender.
      f.	Drivers with no college education were more likely to accept coupons.
@@ -53,7 +53,7 @@ KEY FINDINGS
      j.	Drivers were slightly more likely to accept coupons if they did not have to switch
         directions to reach the coffee house.
 
-2) I also looked at the acceptance rate of CoffeeHouse Coupons. Mean Coupon Acceptance
+3) I also looked at the acceptance rate of CoffeeHouse Coupons. Mean Coupon Acceptance
    Rates for Each 'CoffeeHouse' Category are as follows:
 	
      • 1 to 3 times		64.7%
@@ -65,7 +65,7 @@ KEY FINDINGS
    The ‘Never’ and ‘Less than 1 Time’ categories show means that are significantly
    different than the other categories, suggesting the factors that determine acceptance
    rates for them are significantly different than the others. Therefore, I segmented
-   the data into three categories for the analysis: ‘Never’, ‘Less than 1 Time’, and
+   the data into three classes of drivers for the analysis: ‘Never’, ‘Less than 1 Time’, and
    ‘Other’. The ‘Other’ category merges the remaining three categories with nearly
    equal acceptance rates. The subsequent analysis was based on these three categories
    and was implemented to make recommendations for targeting drivers with the desired
@@ -76,7 +76,7 @@ KEY FINDINGS
      • Less than 1 time					48.0%
      • Other						65.9%
 
-3) By far, the most important factor driving higher acceptance rates is a driver’s 
+4) By far, the most important factor driving higher acceptance rates is a driver’s 
    occupation. By targeting the top three occupations in each category, acceptance
    rates exceed the baseline mean for each category by ~15%:
 	
@@ -95,7 +95,7 @@ KEY FINDINGS
      • Personal Care & Services				88.9%
      • Construction and extraction			87.5%
 
-4) The values that have the most significance in each category are provided in the following tables:
+5) The column/category combinations that have the highest acceptance rates in each category are provided in the following tables from highest to lowest. While the tables are dominated by specific occupations, we can see that other categories not associated with specific occupations are significant as well. Ech table presents the top column/category combinations that have the highest acceptance rates for each class of driver:
 
    Results for 'Never' category
    Overall Mean for 'Never' category: 17.5%
@@ -172,4 +172,4 @@ Overall Mean for 'Everyone Else' category: 49.6%
      occupation		Unemployed			53.7%
      income		$87500 - $99999			53.6%
 
-5) Next steps would include selecting the columns and cetegories that result in acceptance rates higher than the nominal acceptance rates for each of the three classes of drivers. Screening drivers always results in subsets of drivers, so attention must also be given to the sizes of the screened datasets. In other words, screening will often result in significantly higher acceptance rates, but the size of the screened drivers is so small that very few coupons can be issueed.
+5) Next steps would include selecting the columns/cetegory combinations with acceptance rates greater than the nominal acceptance rates for each of the three classes of drivers. Screening drivers always results in subsets of drivers, so attention must also be given to the sizes of the screened datasets. In other words, screening will often result in significantly higher acceptance rates, but the size of the screened drivers is so small that very few coupons get issueed.
