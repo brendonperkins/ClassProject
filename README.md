@@ -171,3 +171,5 @@ Overall Mean for 'Everyone Else' category: 49.6%
      income		Less than $12500		54.0%
      occupation		Unemployed			53.7%
      income		$87500 - $99999			53.6%
+
+5) Next steps would include selecting the columns and cetegories that result in acceptance rates higher than the nominal acceptance rates for each of the three classes of drivers. Screening drivers always results in subsets of drivers, so attention must also be given to the sizes of the screened datasets. In other words, screening will often result in significantly higher acceptance rates, but the size of the screened drivers is so small that very few coupons can be issueed.
